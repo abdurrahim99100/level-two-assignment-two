@@ -28,7 +28,7 @@ const getOneProductService = async (productId: string) => {
   }
 };
 
-//update one product with product id
+// UPDATE ON PRODUCT WITH PRODUCT ID;
 
 const updateOneProductService = async (productId: string, data: Product) => {
   try {
