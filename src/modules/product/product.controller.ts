@@ -71,7 +71,7 @@ const getAllProductData = async (req: Request, res: Response) => {
       });
     }
   } catch (e) {
-    //send error to client site
+    // SEND ERROR TO CLIENT SIDE;
     res.status(500).json({
       success: false,
       message: "Products not fetched!",
