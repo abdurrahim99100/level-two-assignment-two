@@ -12,3 +12,5 @@ async function main() {
 
 // CALL MAIN FUNCTION;
 main();
+
+// 90% complete;
