@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-// validation with zod
+// VALIDATION WITH ZOD;
 const VariantSchema = z.object({
   type: z.string().nonempty("Type is required"),
   value: z.string().nonempty("Value is required"),
