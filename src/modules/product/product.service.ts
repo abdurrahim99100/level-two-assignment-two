@@ -14,8 +14,7 @@ const getAllProductService = async () => {
   return result;
 };
 
-//get one product data
-
+// GET ONE PRODUCT DATA;
 const getOneProductService = async (productId: string) => {
   try {
     const result = await Product_.findOne({ _id: productId });
