@@ -21,6 +21,7 @@ const ProductSchema = z.object({
   inventory: InventorySchema,
 });
 
+// VALIDATION TYPE;
 type Variant = z.infer<typeof VariantSchema>;
 type Inventory = z.infer<typeof InventorySchema>;
 type Product = z.infer<typeof ProductSchema>;
