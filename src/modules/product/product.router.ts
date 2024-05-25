@@ -6,7 +6,7 @@ const productRouter = express.Router();
 productRouter.post("/", productController.createProductController);
 // GET ALL PRODUCT;
 productRouter.get("/", productController.getAllProductData);
-// GET ONE PRODUCT UPDATE;
+// GET ONE PRODUCT UPDATE ------------------;
 productRouter.get("/:productId", productController.getOneProductBuyId);
 // UPDATE ON PRODUCT;
 productRouter.put("/:productId", productController.updateOneProductData);
