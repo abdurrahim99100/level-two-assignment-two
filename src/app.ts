@@ -11,7 +11,7 @@ app.use("/api/products", productRouter);
 app.use("/api/orders", orderManagementRouter);
 
 app.get("/", (req: Request, res: Response) => {
-  res.send({ message: "mission-2-assignment. " });
+  res.send({ message: "SERVER IS RUNNING SUCCESSFULLY!" });
 });
 
 // ROUTER NOT FOUNT;

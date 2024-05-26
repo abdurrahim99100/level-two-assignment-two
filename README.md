@@ -35,4 +35,4 @@ To run this command development mood
 # Live server:
 
 - github repo link : https://github.com/abdurrahim99100/level-two-assignment-two.git
-- Live server link: 
+- Live server link: https://level-two-assignment-two.vercel.app/
