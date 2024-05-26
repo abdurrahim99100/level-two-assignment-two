@@ -22,5 +22,7 @@ app.use((req, res) => {
   });
 });
 
+// const apple = 10;
+
 // EXPORT APP;
 export default app;
