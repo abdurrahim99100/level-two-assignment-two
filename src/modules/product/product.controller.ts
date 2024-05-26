@@ -63,7 +63,7 @@ const getAllProductData = async (req: Request, res: Response) => {
     } else {
       const result = await productService.getAllProductService();
 
-      //send response to client site
+      // SEND RESPONSE TO CLIENT SIDE;
       res.status(200).json({
         success: true,
         message: "Products fetched successfully!",
